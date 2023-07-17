@@ -1,0 +1,247 @@
+@font-face {
+  font-family: myFont-bold;
+  src: url(font/NetflixSans-Bold.otf);
+}
+@font-face {
+  font-family: myFont-Medium;
+  src: url(font/NetflixSans-Medium.otf);
+}
+@font-face {
+  font-family: myFont-Regular;
+  src: url(font/NetflixSans-Regular.otf);
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("Assets/IN-en-20230710-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  border-bottom: 5px solid grey;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 155px;
+}
+.logo {
+  width: 130px;
+}
+nav button {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+
+}
+.language-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+}
+.language-btn img {
+  width: 15px;
+}
+.section-1 {
+  text-align: center;
+  margin-top: 180px;
+  line-height: 50px;
+}
+.section-1 h1 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: myFont-bold;
+  font-size: 45px;
+}
+.section-1 p {
+  color: aliceblue;
+  font-family: myFont-Regular;
+}
+.form-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form-1 button {
+  margin-left: 20px;
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-family: myFont-bold;
+}
+.form-1 input {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #fff;
+  padding-left: 20px;
+}
+.section-2 {
+  display: flex;
+  padding: 72px 0;
+  border-bottom: 5px solid grey;
+}
+.section-2-sub {
+  margin: 0 160px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-2-sub-1 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: myFont-bold;
+  font-size: 25px;
+}
+.section-2-sub-img {
+  width: 508px;
+  height: 381px;
+}
+.section-2-sub-img img {
+  width: 100%;
+}
+.section-2-sub-2 {
+  color: aliceblue;
+  font-family: myFont-Regular;
+}
+.section-3 {
+  display: flex;
+  padding: 72px 0;
+  border-bottom: 5px solid grey;
+}
+.section-3-sub {
+  margin: 0 160px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 6px;
+}
+.section-3-sub-img {
+  width: 508px;
+  height: 381px;
+  margin-left: 85px;
+}
+.section-3-sub-img img {
+  width: 100%;
+}
+.section-3-sub-1 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: myFont-bold;
+  font-size: 20px;
+}
+.section-3-sub-2 {
+  color: aliceblue;
+  font-family: myFont-Regular;
+}
+.faq {
+  width: 1349px;
+  height: 745px;
+  padding: 72px 0;
+  border-bottom: 5px solid grey;
+}
+.faq-head {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: myFont-bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.faq-wrap {
+  height: 786px;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  width: 1028px;
+  height: 84px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+.btn button {
+  padding: 25px 0;
+  margin: 5px 100px;
+  background-color: rgb(45, 45, 45);
+  border: none;
+  color: aliceblue;
+  font-family: myFont-Regular;
+  text-align: left;
+  font-size: x-large;
+}
+span {
+  padding-left: 50px;
+}
+.ready-to-watch {
+  padding-top: 30px;
+  text-align: center;
+  color: aliceblue;
+  font-family: myFont-Regular;
+  font-size: x-large;
+}
+.footer-sub{
+  width: 1028px;
+  height: 463px;
+  padding: 0 60px;
+}
+.call{
+  cursor: pointer;
+  line-height: 30px;
+  color: rgba(255,255,255,0.7);
+  font-family: myFont-Regular;
+  font-size: small;
+  margin-left: 300px;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+
+}
+.footer-list p{
+  padding-left: 130px;
+  text-decoration: underline;
+  cursor: pointer;
+  line-height: 30px;
+  color: rgba(255,255,255,0.7);
+  font-family: myFont-Regular;
+  font-size: small;
+
+}
+.language-btn-2{
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+  margin-left: 130px;
+ 
+}
+.language-btn-2 img{
+  width: 10px;
+}
+.btn button {
+  display: flex;
+  justify-content: space-between;
+}
+i{
+  margin-right: 30px;
+}
